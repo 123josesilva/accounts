@@ -1,4 +1,4 @@
-### Setup inicial
+# Setup inicial
 
 ```
 npm init  
