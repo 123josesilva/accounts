@@ -27,3 +27,5 @@ const chalk = require("chalk");
 const fs = require("fs"); 
 
 ```
+
+no index.js é também onde concentramos o cerebro do sistema com a função `operation()` sendo a principal função que distribui o processamento tadas as outras funções do sistema que estão na pasta `/actions`
