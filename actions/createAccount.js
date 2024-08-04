@@ -29,7 +29,8 @@ function bildAccount(){
         }
 
         fs.writeFileSync(`accounts/${accountName}.json`, '{"balance" : 0}', (err)=>console.log(err));
-        console.log('Parabéns a sua conta foi criada com sucesso!'); 
+        console.log('Parabéns a sua conta foi criada com sucesso!');
+        return true;  
     }).catch(err => console.log('bildAccount say:', err)); 
 }
 
