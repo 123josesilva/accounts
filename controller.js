@@ -1,5 +1,5 @@
 import index from './index.js';
-import createAccount from './actions/createAccount.js'; 
+import createAccount from './services/createAccount.js'; 
 
 let initMessage = {
     type: 'list',
